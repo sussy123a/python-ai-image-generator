@@ -66,16 +66,16 @@ class ImageGeneratorApp:
                     image = self.pipe(
                         prompt,
                         num_inference_steps=50,
-                        height=459,
-                        width=459
+                        height=456,
+                        width=456
                     ).images[0]
             else:
                 # CPU fallback, no autocast
                 image = self.pipe(
                     prompt,
-                    num_inference_steps=49,
-                    height=459,
-                    width=459
+                    num_inference_steps=50,
+                    height=456,
+                    width=456
                 ).images[0]
 
             image.save("output.png")
