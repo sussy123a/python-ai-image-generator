@@ -9,3 +9,7 @@ then run start.bat type your prompt in the gui when the models loads and the gui
 click Generate Image to generate it
 
 note: only for windows
+
+
+
+generate whatever you want i dont care what you make with this
